@@ -5,12 +5,6 @@ import { getPopularMovies, searchMovies } from "../api/api-service";
 import Movie from "./Movie";
 import Topbar from "./Topbar";
 
-const FEATURED_API =
-  "https://api.themoviedb.org/3/discover/movie?api_key=9d9266cc8cdf15358dceaab5ee7bec76&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate";
-
-const SEARCH_API =
-  "https://api.themoviedb.org/3/search/movie?api_key=9d9266cc8cdf15358dceaab5ee7bec76&query=";
-
 const Movies = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");

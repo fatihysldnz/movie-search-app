@@ -54,27 +54,6 @@ const LoginForm = () => {
           setLoading(false);
         });
     });
-
-    /*  login(values)
-      .then((respLogin) => {
-        localStorage.setItem("token", respLogin.data.token);
-
-        getUser()
-          .then((respUser) => {
-            dispatchUser(loginSuccess(respUser.data));
-            navigate("/");
-            setLoading(false);
-          })
-          .catch((err) => {
-            toast(err.response.data.message);
-            setLoading(false);
-            dispatchUser(loginFailed());
-          });
-      })
-      .catch((err) => {
-        toast(err.response.data.message);
-        setLoading(false);
-      }); */
   };
 
   const formik = useFormik({
