@@ -22,4 +22,8 @@ Bu proje React.js kullanilarak olusturulmustur.
 
 - Son olarak da kullancilara **logout** butonu sunulmustur. Bu butona tiklandiginda kullaniciya cikis yapmak isteyip istemedigi sorulur ve onay alinirsa kullaniciyi login sayfasina yonlendirip, LocalStorage de tutulan kullanici tokeni silinir.
 
-### `react-router-dom`
+### `Application icin gerekli olan kullanici giris bilgileri`
+
+- Username: hfatih98
+
+- Password: 1234567
